@@ -5,217 +5,521 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Landing - Forty by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<title>Taha Shaheen - Projects</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
 
-				<!-- Header -->
-				<!-- Note: The "styleN" class below should match that of the banner element. -->
-					<header id="header" class="alt style2">
-						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+<style>
+	body {
+		font-family: Arial;
+		margin: 0;
+	}
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Landing</a></li>
-							<li><a href="generic.html">Generic</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-						<ul class="actions stacked">
+	* {
+		box-sizing: border-box;
+	}
+
+	img {
+		vertical-align: middle;
+	}
+
+	/* Position the image container (needed to position the left and right arrows) */
+	.container {
+		position: relative;
+	}
+
+	/* Hide the images by default */
+	.mySlides {
+		display: none;
+	}
+
+	/* Add a pointer when hovering over the thumbnail images */
+	.cursor {
+		cursor: pointer;
+	}
+
+	/* Next & previous buttons */
+	.prev,
+	.next {
+		cursor: pointer;
+		position: absolute;
+		top: 40%;
+		width: auto;
+		padding: 16px;
+		margin-top: -50px;
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+		-webkit-user-select: none;
+	}
+
+	/* Position the "next button" to the right */
+	.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+	}
+
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover,
+	.next:hover {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	/* Number text (1/3 etc) */
+	.numbertext {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+
+	/* Container for image text */
+	.caption-container {
+		text-align: center;
+		background-color: #222;
+		padding: 2px 1px;
+		color: white;
+	}
+
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	/* Six columns side by side */
+	.column {
+		float: left;
+		width: 16.66%;
+	}
+
+	/* Add a transparency effect for thumnbail images */
+	.demo {
+		opacity: 0.6;
+	}
+
+	.active,
+	.demo:hover {
+		opacity: 1;
+	}
+</style>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<!-- Note: The "styleN" class below should match that of the banner element. -->
+		<header id="header" class="alt style4">
+			<a href="index.html" class="logo"><strong>Taha</strong> <span>Shaheen</span></a>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<!-- <li><a href="landing.html">Landing</a></li> -->
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="additional_work.html">Additional Work</a></li>
+				<li><a href="cv.html">CV</a></li>
+			</ul>
+			<!-- <ul class="actions stacked">
 							<li><a href="#" class="button primary fit">Get Started</a></li>
 							<li><a href="#" class="button fit">Log In</a></li>
-						</ul>
-					</nav>
+						</ul> -->
+		</nav>
 
-				<!-- Banner -->
-				<!-- Note: The "styleN" class below should match that of the header element. -->
-					<section id="banner" class="style2">
+		<!-- Banner -->
+		<!-- Note: The "styleN" class below should match that of the header element. -->
+		<section id="banner" class="style3">
+			<div class="inner">
+				<span class="image">
+					<img src="images/robo-chotu_speech.jpg" alt="" />
+				</span>
+				<header class="major">
+					<h1>Projects</h1>
+					<p>Projects I'm proud of</p>
+				</header>
+				<!-- <div class="content">
+					<p>Lorem ipsum dolor sit amet nullam consequat<br />
+						sed veroeros. tempus adipiscing nulla.</p>
+				</div> -->
+			</div>
+		</section>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Two -->
+			<section id="two" class="spotlights">
+				<section id="reception_bot">
+					<a class="image">
+						<img src=" images/reception_bot.jpg" alt="" data-position=" center center" />
+					</a>
+					<div class="content">
 						<div class="inner">
-							<span class="image">
-								<img src="images/pic07.jpg" alt="" />
-							</span>
 							<header class="major">
-								<h1>Landing</h1>
+								<h3>Office Reception Robot</h3>
 							</header>
-							<div class="content">
-								<p>Lorem ipsum dolor sit amet nullam consequat<br />
-								sed veroeros. tempus adipiscing nulla.</p>
-							</div>
+							<p>I began to work on this project once the COVID-19 pandemic made it impossible to continue
+								on
+								with the <a href="#asd_bot">previous project</a>. I integrated the <a
+									href="#robo_chotu">Robo-Chotu platform</a>
+								with
+								the <a href="https://pypi.org/project/face-recognition/" target="_blank">
+									PyPI face-recognition package </a> running on a server at the backend. The robot
+								recognized people it had met before, and remembered if they were guests or employees. It
+								memorized the new faces it saw. I wrote three Android apps, one for the reception robot,
+								one for employees, and one for management.</p>
+
+							<p>Once the reception bot established the identity of the person at the reception, it asked
+								them who they wanted to met and their verbal answer was confirmed. This chatbot feature
+								utilized Google's <a href="https://cloud.google.com/dialogflow" target="_blank">
+									Dialogflow</a>. A notification was sent to utilizing <a
+									href="https://firebase.google.com/docs/cloud-messaging" target="_blank">Firebase
+									Cloud Messaging</a>
+								to
+								the employee in question. They could then ask the robot to tell the guest where to go.
+							</p>
+
+							<p>I was assisted by very talented junior research assistants.</p>
+							<p> The image shows the notification on an employee's phone after the reception-bot has
+								recognized me. The employee can ask the robot to send me to either their office or a
+								conference room. </p>
 						</div>
-					</section>
+					</div>
+				</section>
+				<section id="asd_bot">
+					<a class="image">
+						<img src="images/emotion_communication_2.jpg" alt="" data-position="top center" />
+					</a>
+					<div class="content">
+						<div class="inner">
+							<header class="major">
+								<h3>Robot as Emotion Communication Tool</h3>
+							</header>
+							<p>Under guidance of therapists from the <a
+									href="https://www.duhs.edu.pk/new/ipmr-introduction/" target="_blank">Dow Institute
+									of Physical Medicine and Rehabilitation</a> and the <a href="https://c-arts.org.pk/"
+									target="_blank">Center for Autism Rehabilitation & Training Sindh</a> and assisted
+								by two teams
+								of 4 undergraduate students each, I explored the use
+								of <a href="#robo_chotu">Robo-Chotu</a> as an emotion-communication tool.
+								In a pilot, we put items such as a birthday hat or a band-aid on the robot. Programmed
+								the robot to also
+								show an appropriate expression on its face. Children with ASD then identified the
+								emotion that matched
+								the situation.
+								Rebuilt (see project below) for this task. Added
+								natural language
+								processing and communication
+								using Google Dialogflow. Wrote Android app for Wizard-of-Oz control. </p>
+							<p>We made the code public but the repositories are not maintained. Documentation is
+								available for the first four repos.</p>
+							<ol>
+								<li><a href="https://github.com/tahaShaheen/tdf02-145_tablet_sharable"
+										target="_blank">Repo for the face Android app (initially exported from
+										Unity)</a></li>
+								<li><a href="https://github.com/tahaShaheen/tdf02-145_unity_sharable"
+										target="_blank">Repo for Unity code for face</a></li>
+								<li><a href="https://github.com/tahaShaheen/tdf02-145_remote_sharable"
+										target="_blank">Repo for Android remote app for Wizard-of-Oz</a></li>
+								<li><a href="https://github.com/tahaShaheen/tdf02-145_arduino_sharable"
+										target="_blank">Repo for Arduino code</a></li>
+								<li><a href="https://github.com/tahaShaheen/dialogflow-sharable"
+										target="_blank">Dialogflow template for chatbot</a>
+								</li>
+							</ol>
+						</div>
+					</div>
+				</section>
+				<section id="robo_chotu">
+					<!-- <a class="image">
+						<img src="images/pic01.jpg" alt="" data-position="25% 25%" />
+					</a> -->
+					<iframe width="100%" height="720" src="https://www.youtube.com/embed/3o5LQfDlxfQ"
+						title="Meet Robochotu! NED University's extremely interactive chatting robot!" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+					<div class="content">
+						<div class="inner">
+							<header class="major">
+								<h3>Robu-Chotu (Videos)</h3>
+							</header>
+							<p>I made a video explaining the features of Chotu.
+								Communication in the robot is done through the Google <a
+									href="https://cloud.google.com/dialogflow" target="_blank">
+									Dialogflow</a> API and a custom
+								chatbot. The skeleton detection uses CMU Perceptual Computing Lab's <a
+									href="https://github.com/CMU-Perceptual-Computing-Lab/openpose" target="_blank">
+									OpenPose</a>.
+							</p>
+							<p>Other videos on Robo-Chotu can be found below. They are partially in Urdu.</p>
+							<ul class="actions">
+								<li><a href="https://www.youtube.com/watch?v=pIN3FDj_Qes&list=PLaUI17PFzHVSpUnbY5Jfi8Jx3rWYMo97O"
+										target="_blank" class="button icon solid fa-video">Yaqeen TV</a></li>
+								<li><a href="https://www.youtube.com/watch?v=WA6IPpiWW1E" target="_blank"
+										class="button primary icon solid fa-video">NEDUET</a>
 
-				<!-- Main -->
-					<div id="main">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<a class="image">
+						<img src="images/robo_sapien.jpg" alt="" data-position="25% 25%" />
+					</a>
+					<div class="content">
+						<div class="inner">
+							<header class="major">
+								<h3>Robot for Imitation Therapy</h3>
+							</header>
+							<p> Worked with a team of 4 undergraduate students and therapists from Dow IPMR to augment a
+								<a href="https://wowwee.com/robosapien-x" target="_blank">
+									Robosapien
+									by WowWee robotics</a>. Used <a
+									href="https://github.com/CMU-Perceptual-Computing-Lab/openpose" target="_blank">
+									OpenPose </a> and an ESP8266 nodemcu to have the robot copy a person’s arm positions
+								and to detect
+								when a person had successfully copied the robot’s arm position.
+							</p>
 
-						<!-- One -->
-							<section id="one">
-								<div class="inner">
-									<header class="major">
-										<h2>Sed amet aliquam</h2>
-									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-								</div>
-							</section>
 
-						<!-- Two -->
-							<section id="two" class="spotlights">
-								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic08.jpg" alt="" data-position="center center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Orci maecenas</h3>
-											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic09.jpg" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Rhoncus magna</h3>
-											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Sed nunc ligula</h3>
-											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-							</section>
+						</div>
+					</div>
+				</section>
+				<section>
+					<!-- <img src="images/chotu_stage_1.jpg" data-position="top center" />
+						<img src="images/chotu_greeter.jpg" data-position="top center" />
+						<img src="images/the_chotu_team.jpg" data-position="top center" /> -->
 
-						<!-- Three -->
-							<section id="three">
-								<div class="inner">
-									<header class="major">
-										<h2>Massa libero</h2>
-									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button next">Get Started</a></li>
-									</ul>
-								</div>
-							</section>
+					<div class="container">
+						<div class="mySlides">
+							<div class="numbertext">1 / 6</div>
+							<img src="images/chotu_stage_1.jpg" style="width:100%">
+						</div>
 
+						<div class="mySlides">
+							<div class="numbertext">2 / 6</div>
+							<img src="images/chotu_greeter.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">3 / 6</div>
+							<img src="images/the_chotu_team.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">4 / 6</div>
+							<img src="images/painting_chotu.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">5 / 6</div>
+							<img src="images/chotu_ferrari.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">6 / 6</div>
+							<img src="images/dil_dil_pakistan.jpg" style="width:100%">
+						</div>
+
+						<a class="prev" onclick="plusSlides(-1)">❮</a>
+						<a class="next" onclick="plusSlides(1)">❯</a>
+
+						<div class="caption-container">
+							<p id="caption"></p>
+						</div>
+
+						<div class="row">
+							<div class="column">
+								<img class="demo cursor" src="images/chotu_stage_1.jpg" style="width:100%"
+									onclick="currentSlide(1)" alt="Robo-Chotu onstage opening for an event">
+							</div>
+							<div class="column">
+								<img class="demo cursor" src="images/chotu_greeter.jpg" style="width:100%"
+									onclick="currentSlide(2)" alt="Robo-CHotu greeting people at the entrance">
+							</div>
+							<div class="column">
+								<img class="demo cursor" src="images/the_chotu_team.jpg" style="width:100%"
+									onclick="currentSlide(3)" alt="My teammates and I working on Chotu">
+							</div>
+							<div class="column">
+								<img class="demo cursor" src="images/painting_chotu.jpg" style="width:100%"
+									onclick="currentSlide(4)"
+									alt="Spray painting a trashcan that became the body of the first Chotu">
+							</div>
+							<div class="column">
+								<img class="demo cursor" src="images/chotu_ferrari.jpg" style="width:100%"
+									onclick="currentSlide(5)" alt="Chotu's first dress">
+							</div>
+							<div class="column">
+								<img class="demo cursor" src="images/dil_dil_pakistan.jpg" style="width:100%"
+									onclick="currentSlide(6)"
+									alt="Chotu on an Independence Day event, supporting a patriotic sticker">
+							</div>
+
+						</div>
+					</div>
+					<div class="content">
+						<div class="inner">
+							<header class="major">
+								<h3>Robo-Chotu</h3>
+							</header>
+							<p>Robo-Chotu was my final-year project. In Engineering undergrad degrees, students are
+								required to make a project in the last year of their studies. At my university, a
+								project is made in a team of four or less.</p>
+						</div>
 					</div>
 
-				<!-- Contact -->
-					<section id="contact">
+
+				</section>
+				<section>
+					<a class="image">
+						<video width="100%" height="240" controls>
+							<source src="images/kammo_ac.mp4" type="video/mp4">
+						</video>
+					</a>
+					<div class="content">
 						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
-									</div>
-								</section>
-							</section>
+							<header class="major">
+								<h3>Smart Home Control</h3>
+							</header>
+							<p>Wrote Android app in Java, programmed and installed an ESP8266 nodemcu in an air
+								conditioner and a set up backend on Google
+								Firebase. Set up the AC to turn on at a certain time in the day. Also wrote an app to
+								remotely operate
+								the AC through WiFi.</p>
+							<p>Video shows my roommate and I entering the room after work on the day I set up the AC to
+								turn on automatically for the first time.</p>
 						</div>
-					</section>
+					</div>
+				</section>
+			</section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-							</ul>
+
+			<!-- Three -->
+			<!-- <section id="three">
+				<div class="inner">
+					<header class="major">
+						<h2>Massa libero</h2>
+					</header>
+					<div class="col-12">
+						<select id="select">
+							<option value="" selected hidden>Select</option>
+							<option value="google">monthly</option>
+							<option value="github">annually</option>
+							<option value="stack">triennially</option>
+						</select>
+
+						<div class="pricing-btn">
+							<a href="https://github.com" class="btn" button="github"> Get started Git</a>
 						</div>
-					</footer>
+						<div class="pricing-btn">
+							<a href="https://google.com" class="btn" button="google"> Get started Google</a>
+						</div>
+						<div class="pricing-btn">
+							<a href="https://stackoverflow.com" class="btn" button="stack"> Get started Stack</a>
+						</div>
+					</div>
+				</div>
+				<script>
+					document.getElementById("select").addEventListener("change", (ev) => {
+						var buttonId = document.getElementById("select").value;
+						var button = document.querySelector('[button="' + buttonId + '"]');
+						var buttons = document.querySelectorAll(".btn").forEach(el => {
+							el.style.display = 'none';
+						});
+						button.style.display = 'block';
+					});
+				</script>
+				<style>
+					.btn {
+						display: none;
+					}
+				</style>
+			</section> -->
 
-			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+
+
+
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://github.com/tahaShaheen" class="icon brands alt fa-github"><span
+									class="label">GitHub</span></a></li>
+						<li><a href="https://www.linkedin.com/in/tahashaheen/"
+								class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Forty</li>
+						<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			let i;
+			let slides = document.getElementsByClassName("mySlides");
+			let dots = document.getElementsByClassName("demo");
+			let captionText = document.getElementById("caption");
+			if (n > slides.length) { slideIndex = 1 }
+			if (n < 1) { slideIndex = slides.length }
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+			captionText.innerHTML = dots[slideIndex - 1].alt;
+		}
+	</script>
+
+</body>
+
 </html>
